@@ -4,7 +4,7 @@
 
   <project name="Maxx12211/android_device_samsung_j7elte" path="device/samsung/j7elte" remote="Maxx12211" revision="lineage-18.1" />
   <project name="Maxx12211/android_device_samsung_universal7580-common" path="device/samsung/universal7580-common" remote="Maxx12211" revision="lineage-18.1" />
-  <project name="Maxx12211/android_hardware_samsung" path="hardware/samsung" remote="FlominatorGD" revision="aosp-11" />
+  <project name="Maxx12211/android_hardware_samsung" path="hardware/samsung" remote="Maxx12211" revision="havoc-11" />
   <project name="Maxx12211/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="Maxx12211" revision="lineage-18.1" />
   <project name="Maxx12211/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="Maxx12211" revision="lineage-18.1" />
   <project name="Maxx12211/android_hardware_samsung_slsi_exynos7580" path="hardware/samsung_slsi/exynos7580" remote="Maxx12211" revision="lineage-18.1" />
