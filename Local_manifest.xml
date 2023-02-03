@@ -2,13 +2,7 @@
 <manifest>
   <remote name="Maxx12211" fetch="https://github.com"/>
 
-  <project name="Maxx12211/android_device_samsung_j7elte" path="device/samsung/j7elte" remote="Maxx12211" revision="lineage-18.1" />
-  <project name="Maxx12211/android_device_samsung_universal7580-common" path="device/samsung/universal7580-common" remote="Maxx12211" revision="lineage-17.1" />
-  <project name="Maxx12211/android_hardware_samsung" path="hardware/samsung" remote="Maxx12211" revision="havoc-11" />
-  <project name="Maxx12211/android_hardware_samsung_slsi_exynos" path="hardware/samsung_slsi/exynos" remote="Maxx12211" revision="lineage-18.1" />
-  <project name="Maxx12211/android_hardware_samsung_slsi_exynos5" path="hardware/samsung_slsi/exynos5" remote="Maxx12211" revision="lineage-18.1" />
-  <project name="Maxx12211/android_hardware_samsung_slsi_exynos7580" path="hardware/samsung_slsi/exynos7580" remote="Maxx12211" revision="lineage-18.1" />
-  <project name="Maxx12211/android_hardware_samsung_slsi_openmax" path="hardware/samsung_slsi/openmax" remote="Maxx12211" revision="lineage-18.1" />
-  <project name="Maxx12211/android_kernel_samsung_universal7580" path="kernel/samsung/universal7580" remote="Maxx12211" revision="lineage-18.1" />
-  <project name="Maxx12211/proprietary_vendor_samsung" path="vendor/samsung" remote="Maxx12211" revision="lineage-18.1" />
+  <project name="Maxx12211/android_device_xiaomi_rova" path="device/xiaomi/rova" remote="Maxx12211" revision="13.0" />
+  <project name="Maxx12211/android_vendor_xiaomi_rova" path="vendor/xiaomi/rova" remote="Maxx12211" revision="13.0" />
+  <project name="Maxx12211/android_kernel_xiaomi_rova" path="kernel/xiaomi/rova" remote="Maxx12211" revision="13.0" />
 </manifest>
