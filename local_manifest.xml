@@ -2,7 +2,7 @@
 <manifest>
     <!--
     * target: rova
-    * rom: Arrow
+    * rom: Alpha
     -->
 
  
@@ -11,18 +11,12 @@
   <remote name="clang" fetch="https://gitlab.com/Amritorock" />
     
     <!-- Trees -->
-  <project name="Maxx12211/android_device_xiaomi_rova" path="device/xiaomi/rova" remote="Maxx12211" revision="13-arrow2" />
+  <project name="Maxx12211/android_device_xiaomi_rova" path="device/xiaomi/rova" remote="Maxx12211" revision="13.0-alphadroid" />
   <project name="Maxx12211/android_vendor_xiaomi_rova" path="vendor/xiaomi/rova" remote="Maxx12211" revision="13" />
   <project name="Maxx12211/android_kernel_xiaomi_rova" path="kernel/xiaomi/rova" remote="Maxx12211" revision="13.0" />
 
   <!-- Clang-->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />   
   
-   <!-- remove -->
-  <!--remove-project name="packages/modules/Bluetooth" /--> 
-     
-   <!--Blutooth -->
-  <!--project name="Maxx12211/android_packages_modules_Bluetooth" path="packages/modules/Bluetooth" remote="Maxx12211" revision="arrow-13.0" /-->
  
-  
 </manifest>
