@@ -11,10 +11,10 @@
   
   
    <!-- remove -->
-  <remove-project name="device/cherish/sepolicy" />
+  <remove-project name="packages/modules/Bluetooth" />
      
-   <!--sepolicy -->
-  <project path="device/cherish/sepolicy" name="android_device_cherish_sepolicy" remote="Maxx12211" revision=" tiramisu" />
+   <!--Bluetooth -->
+  <project path="packages/modules/Bluetooth" name="android_packages_modules_Bluetooth_cherish" remote="Maxx12211" revision=" tiramisu" />
  
   
 </manifest>
