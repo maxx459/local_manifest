@@ -11,9 +11,9 @@
   <remote name="clang" fetch="https://gitlab.com/Amritorock" />
     
     <!-- Trees -->
-  <project name="maxx459/android_device_xiaomi_rova" path="device/xiaomi/rova" remote="maxx459" revision="alphadroid-13" />
-  <project name="maxx459/android_vendor_xiaomi_rova" path="vendor/xiaomi/rova" remote="maxx459" revision="13.0" />
-  <project name="maxx459/android_kernel_xiaomi_rova" path="kernel/xiaomi/rova" remote="maxx459" revision="13.0" />
+  <project name="maxx459/device_xiaomi_rova" path="device/xiaomi/rova" remote="maxx459" revision="alphadroid-13" />
+  <project name="maxx459/vendor_xiaomi_rova" path="vendor/xiaomi/rova" remote="maxx459" revision="13.0" />
+  <project name="maxx459/kernel_xiaomi_rova" path="kernel/xiaomi/rova" remote="maxx459" revision="13.0" />
 
   <!-- Clang-->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />   
