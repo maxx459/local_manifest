@@ -6,6 +6,7 @@
     -->
 
     <!-- Remote -->
+
   <remote  name="mi-msm8937"
            fetch="https://github.com/mi-msm8937"
            revision="lineage-18.1" />
@@ -19,10 +20,14 @@
            revision="a13/master" />
 
   <remote name="maxx459" 
-          fetch="https://github.com"/>
+          fetch="https://github.com/maxx459"/>
     
   <remote name="clang" 
           fetch="https://gitlab.com/Amritorock" />
+
+  <remote  name="LineageOS2"
+           fetch="https://github.com/LineageOS" />
+
 
  <!-- Clang-->
   <project path="prebuilts/clang/host/linux-x86/clang-r450784d" name="clang-r450784d" remote="clang" revision="master" clone-depth="1" />   
@@ -52,8 +57,8 @@
   </project>
 
  <!-- Hardware - display-commonsys-intf -->
-  <project path="hardware/mithorium/display/LA.UM.9.6.4.r1-05200-89xx.QSSI13.0/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom"/>
-  <project path="hardware/mithorium/display/lineage-20.0-caf-msm8953/display" name="LineageOS/android_vendor_qcom_opensource_display-commonsys-intf" groups="qcom,pdk-qcom"/>
+  <project path="hardware/mithorium/display/LA.UM.9.6.4.r1-05200-89xx.QSSI13.0/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="LineageOS2" revision="lineage-20.0" groups="qcom,pdk-qcom"/>
+  <project path="hardware/mithorium/display/lineage-20.0-caf-msm8953/display" name="android_vendor_qcom_opensource_display-commonsys-intf" remote="LineageOS2" revision="lineage-20.0" groups="qcom,pdk-qcom"/>
 
  <!-- Hardware - LA.UM.8.6.2 -->
   <project path="hardware/mithorium/display/LA.UM.8.6.2.r1-09500-89xx.0/display" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.8.6.2.r1-09500-89xx.0"/>
@@ -64,8 +69,8 @@
   <project path="hardware/mithorium/display/LA.UM.9.6.4.r1-05200-89xx.QSSI13.0/hal" name="android_hardware_qcom_display_mithorium" groups="device" remote="mi-thorium" revision="mithorium/LA.UM.9.6.4.r1-05200-89xx.QSSI13.0"/>
 
  <!-- Hardware - LineageOS (based on LA.UM.10.6.2 tags) -->
-  <project path="hardware/mithorium/media/lineage-20.0-caf-msm8953/hal" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-20.0-caf-msm8953" />
-  <project path="hardware/mithorium/display/lineage-20.0-caf-msm8953/hal" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-20.0-caf-msm8953" />
+  <project path="hardware/mithorium/media/lineage-20.0-caf-msm8953/hal" name="android_hardware_qcom_media" groups="qcom,pdk-qcom" remote="LineageOS2" revision="lineage-20.0-caf-msm8953" />
+  <project path="hardware/mithorium/display/lineage-20.0-caf-msm8953/hal" name="android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" remote="LineageOS2" revision="lineage-20.0-caf-msm8953" />
 
  <!-- MiThoriumSSI -->
   <project path="device/xiaomi/MiThoriumSSI" name="android_device_xiaomi_MiThoriumSSI" groups="device" remote="mi-thorium"/>
