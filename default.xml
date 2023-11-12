@@ -20,7 +20,7 @@
            revision="a13/master" />
 
   <remote name="maxx459" 
-          fetch="https://github.com"/>
+          fetch="https://github.com/maxx459"/>
     
   <remote name="clang" 
           fetch="https://gitlab.com/Amritorock" />
