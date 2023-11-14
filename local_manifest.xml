@@ -2,7 +2,7 @@
 <manifest>
     <!--
     * target: mi8937
-    * rom: risingos
+    * rom: sparkos
     -->
 
     <!-- Remote -->
@@ -76,7 +76,7 @@
   <project path="device/xiaomi/MiThoriumSSI" name="android_device_xiaomi_MiThoriumSSI" groups="device" remote="mi-thorium"/>
 
  <!-- Mi8937 -->
-  <project path="device/xiaomi/Mi8937"        name="android_device_xiaomi_Mi8937"        groups="device" remote="maxx459" revision="a13/rom/rising"/>
+  <project path="device/xiaomi/Mi8937"        name="android_device_xiaomi_Mi8937"        groups="device" remote="maxx459" revision="a13/rom/spark"/>
   <project path="vendor/xiaomi/Mi8937"        name="proprietary_vendor_xiaomi_Mi8937"    groups="device" remote="mi-thorium" revision="a13/master"/>
   <project path="device/xiaomi/land-camera"   name="android_device_xiaomi_land-camera"   groups="device" remote="mi-thorium" revision="sairam/a11/master"/>
   <project path="device/xiaomi/mi8937-camera" name="android_device_xiaomi_mi8937-camera" groups="device" remote="mi-thorium" revision="a11/master"/>
